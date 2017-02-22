@@ -24,7 +24,7 @@ export default class CustomPanel extends Component {
     let index = 0, headerKey = 0;
 
     return (
-      <div className="content">
+      <div className="main">
         <table className='table'>
           <thead>
           <tr>
