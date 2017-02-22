@@ -9,7 +9,7 @@
 ##
 
 ```sh
-git clone 
+git clone git@github.com:Noviel/react-test-project.git
 ```
 
 ## Launching
