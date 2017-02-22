@@ -10,9 +10,9 @@ import { store } from '../redux/store';
 export default function () {
   return (
     <Provider store={store}>
-      <div className ='jumbotron'>
-        <Menu/>
-        <Content/>
+      <div>
+        <Menu className='col-sm-3 col-md-2'/>
+        <Content className='col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2'/>
       </div>
     </Provider>
   )

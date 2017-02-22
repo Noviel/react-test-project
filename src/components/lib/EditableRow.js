@@ -58,11 +58,12 @@ export default class EditableRow extends Component {
     const indexElement = <th>{index}</th>;
 
     const editButtons = (active) ?
-      <th><button className='btn' onClick={() => { this.finishEditing(); onSave(data); }}>Save</button>
-          <span> </span>
-          <button className='btn' onClick={() => { this.finishEditing(); }}>Cancel</button></th>
+      <th className="btn-group" role="group">
+          <button className='btn btn-default' onClick={() => { this.finishEditing(); onSave(data); }}>Save</button>
+          <button className='btn btn-default' onClick={() => { this.finishEditing(); }}>Cancel</button>
+      </th>
       :
-      <th><button className='btn' onClick={this.startEditing}>Edit</button></th>;
+      <th><button className='btn btn-default' onClick={this.startEditing}>Edit</button></th>;
 
     const labels = fields ?
       Object.keys(fields).map((el) => {
@@ -79,7 +80,7 @@ export default class EditableRow extends Component {
         {indexElement}
         {labels}
         {editButtons}
-        <th><button className='btn' onClick={onRemove}>X</button></th>
+        <th><button className='btn btn-danger' onClick={onRemove}>X</button></th>
       </tr>
     )
   }

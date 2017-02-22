@@ -47,7 +47,9 @@ export default class CustomPanel extends Component {
 
           </tbody>
         </table>
-        <button className='btn' onClick={() => { dispatch(add()); }}>New</button>
+        <p className='jumbotron'>
+          <button className='btn btn-success' onClick={() => { dispatch(add()); }}>New</button>
+        </p>
       </div>
     )
   }
