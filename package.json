@@ -1,6 +1,6 @@
 {
   "name": "react-test-project",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React test project.",
   "keywords": [
     "webpack",
@@ -24,7 +24,6 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "deepmerge": "^1.3.2",
     "express": "^4.14.1",
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
@@ -37,13 +36,10 @@
     "babel-loader": "^6.2.10",
     "babel-plugin-transform-class-properties": "^6.22.0",
     "babel-plugin-transform-object-rest-spread": "^6.22.0",
-    "babel-polyfill": "^6.23.0",
     "babel-preset-latest": "^6.16.0",
     "babel-preset-react": "^6.16.0",
     "chokidar": "^1.6.1",
     "clean-webpack-plugin": "^0.1.15",
-    "jest": "^18.1.0",
-    "webpack": "2.2.0",
-    "webpack-chunk-hash": "^0.4.0"
+    "webpack": "2.2.0"
   }
 }

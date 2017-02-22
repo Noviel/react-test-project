@@ -4,8 +4,6 @@
 //
 //=========================================================================
 
-const path = require('path');
-const webpack = require('webpack');
 const { dist, root } = require('./config');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 
