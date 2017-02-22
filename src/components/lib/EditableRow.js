@@ -68,9 +68,9 @@ export default class EditableRow extends Component {
     const labels = fields ?
       Object.keys(fields).map((el) => {
         return (
-          <th key={elementKey++}>
+          <td className='col-md-2' key={elementKey++}>
             <EditableLabel dataName={el} value={fields[el]} active={active} onChange={(value) => { this.handleLabelChange(el, value); }}/>
-          </th>
+          </td>
         )
       })
       : null;
@@ -80,7 +80,7 @@ export default class EditableRow extends Component {
         {indexElement}
         {labels}
         {editButtons}
-        <th><button className='btn btn-danger' onClick={onRemove}>X</button></th>
+        <th className='col-md-2'><button className='btn btn-danger' onClick={onRemove}>X</button></th>
       </tr>
     )
   }

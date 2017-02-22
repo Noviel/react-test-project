@@ -5,6 +5,7 @@
 - `/assets/dist` - compiled by Webpack files
 - `config.js` - basic config constants for Webpack and server
 - `server.js` - server entry point
+- `/src/components/lib` - helper components
 
 ##
 

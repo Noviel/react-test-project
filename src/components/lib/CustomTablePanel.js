@@ -24,7 +24,7 @@ export default class CustomPanel extends Component {
     let index = 0, headerKey = 0;
 
     return (
-      <div>
+      <div className="content">
         <table className='table'>
           <thead>
           <tr>
@@ -47,9 +47,7 @@ export default class CustomPanel extends Component {
 
           </tbody>
         </table>
-        <p className='jumbotron'>
-          <button className='btn btn-success' onClick={() => { dispatch(add()); }}>New</button>
-        </p>
+        <button className='btn btn-success' onClick={() => { dispatch(add()); }}>New</button>
       </div>
     )
   }

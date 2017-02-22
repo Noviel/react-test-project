@@ -11,8 +11,8 @@ export default function () {
   return (
     <Provider store={store}>
       <div>
-        <Menu className='col-sm-3 col-md-2'/>
-        <Content className='col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2'/>
+        <Menu/>
+        <Content/>
       </div>
     </Provider>
   )
