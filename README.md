@@ -15,7 +15,6 @@ git clone git@github.com:Noviel/react-test-project.git
 ## Launching
 
 ```sh
-npm run build
-npm run start
+npm install && npm run build && npm start
 start http://localhost:3000
 ```
